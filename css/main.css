@@ -169,28 +169,28 @@ html,body {
 }
 
 fieldset{
-  display: block;
-  margin-inline-start: 2px;
-  margin-inline-end: 2px;
-  padding-block-start: 0.35em;
-  padding-inline-start: 0.75em;
-  padding-inline-end: 0.75em;
-  padding-block-end: 0.625em;
-  min-inline-size: min-content;
-  border-width: .2px;
-  border-style: groove;
-  border-color: rgb(192, 192, 192);
-  border-image: initial;
-  border-radius: .5rem;
+  display: block !important; 
+  margin-inline-start: 2px !important;
+  margin-inline-end: 2px !important;
+  padding-block-start: 0.35em !important;
+  padding-inline-start: 0.75em !important;
+  padding-inline-end: 0.75em !important;
+  padding-block-end: 0.625em !important;
+  min-inline-size: min-content !important;
+  border-width: .2px !important;
+  border-style: groove !important;
+  border-color: rgb(192, 192, 192) !important;
+  border-image: initial !important;
+  border-radius: .5rem !important;
 }
 legend{
-  display: block;
-  padding-inline-start: 2px;
-  padding-inline-end: 2px;
-  border-width: initial;
-  border-style: none;
-  border-color: initial;
-  border-image: initial;
+  display: block !important;
+  padding-inline-start: 2px !important;
+  padding-inline-end: 2px !important;
+  border-width: initial !important;
+  border-style: none !important;
+  border-color: initial !important;
+  border-image: initial !important;
 }
 
 .tag{
