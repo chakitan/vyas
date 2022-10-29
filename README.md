@@ -2,6 +2,9 @@
 This repo is intended for Chakitan Vyas 's Portfolio
 
 
+For Visit Cound Analytics:
+https://visitcount.itsvg.in/analytics/chakitanvyas
+
 ## Change Log
 version     |   Date          |   Description                   |
 ------------|-----------------|---------------------------------|
@@ -11,4 +14,5 @@ version     |   Date          |   Description                   |
 0.1.240922  |   24.09.2022    |   Resume Update                 |
 0.1.201022  |   20.10.2022    |   Site Fix+Resume Update        |
 0.20.10221  |   20.10.2022    |   Site Fix+Versioning change    |
+0.29.10221  |   29.10.2022    |   Visit counter added           |
 
