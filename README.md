@@ -2,7 +2,7 @@
 This repo is intended for Chakitan Vyas 's Portfolio
 
 
-For Visit Cound Analytics:
+For Visit Count Analytics:
 https://visitcount.itsvg.in/analytics/chakitanvyas
 
 ## Change Log
