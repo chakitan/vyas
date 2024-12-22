@@ -1,604 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-<!--         <meta name="viewport" content="width=device-width, initial-scale=1"> -->
-        <meta name="description" content="Chakitan Vyas Portfolio">
-        <meta name="keywords" content="Vyas, Azure, DevOps, PowerShell, Chakitan, India">
-        <meta name="author" content="Chakitan Vyas">
-        <title>Chakitan Vyas - DevSecOps Engineer</title>
-        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-        <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon.png">
-        <link rel="icon" type="image/x-icon" href="img/favicon.ico">
-        <!-- Bulma Version 0.9.0-->
-        <link rel='stylesheet prefetch' href='https://unpkg.com/bulma@0.9.0/css/bulma.min.css'>
-        <!-- <link rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" /> -->
-        <link rel="stylesheet" href="css/tabs.css">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="https://kit.fontawesome.com/7dc3015a44.js" crossorigin="anonymous"></script>
-        <!-- <script src="js/readSettings.js" type="text/javascript"></script> -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="keywords" content="Vyas, Azure, DevOps, Cloud, PowerShell, Chakitan, India, DevSecOps, SRE, Bash, Python">
+        <meta name="description" content="Chakitan Vyas DevOps Engineer Portforlio" />
+        <meta name="author" content="Chakitan Vyas" />
+        <meta content="text/html; charset=UTF-8; X-Content-Type-Options=nosniff" http-equiv="Content-Type" />
+        <title>Chakitan Vyas | DevOps Engineer | India</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="apple-touch-icon-precomposed" href="assets/img/apple-touch-icon.png">
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+        <!-- Custom Google font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <script type="text/javascript">
+            (function(c,l,a,r,i,t,y){
+                c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+                t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+                y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+            })(window, document, "clarity", "script", "phj9x9t7kr");
+        </script>
     </head>
-    <body>
-        <section class="hero is-info">
-            <div class="hero-body stage">
-                <div class="container">
-                    <h2 class="title">
-                        <span id="typewriter"></span>🙏  
-                    </h2>
-                   <span><br></span>
-                   <span><br></span>
-                   <span><br></span>
-                   <span><br></span>
-                   <span><br></span>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+                <div class="container px-5">
+                    <!-- <a class="navbar-brand" href="index.html"> -->
+                        <span class="fw-bolder text-primary" id="typewriter"></span>🙏🏼
+                    <!-- </a> -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+                            <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                            <li class="nav-item"><a class="nav-link" href="weblog.html">Blogs</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-            <div class="tabs is-boxed is-centered main-menu" id="nav" style="font-size: medium;">
-                <ul>
-                    <li data-target="pane-1" id="1">
-                        <a>
-                            <span class="icon is-small"><i class="fa fa-handshake-o"></i></span>
-                            Connect
-                        </a>
-                    </li>
-                    <li data-target="pane-2" id="2" class="is-active">
-                        <a>
-                            <span class="icon is-small"><i class="fa fa-info-circle"></i></span>
-                            <span>About</span>
-                        </a>
-                    </li>
-                    <li data-target="pane-3" id="3">
-                        <a>
-                            <span class="icon is-small"><i class="fa fa-rss"></i></span>
-                            <span>Blogs</span>
-                        </a>
-                    </li>
-                    <li data-target="pane-4" id="4">
-                        <a>
-                            <span class="icon is-small"><i class="fab fa-superpowers"></i></span>
-                            <span>Work</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="tab-content">
-                <div class="tab-pane" id="pane-1">
-                    <section class="container">
-                        <div class="notification is-warning is-light">
-                            <button class="delete"></button>
-                            Let's join over to talk some tech/ business/ social.
-                            Even if you are simply curious about my name, I would love to connect!
-                          </div>
-                        <div class="sandbox">
-                            <div class="tile is-ancestor">
-                                <div class="tile is-vertical is-8">
-                                    <div class="tile">
-                                        <div class="tile is-parent is-vertical">
-                                            <article class="tile is-child notification is-white is-shady">
-                                                <p class="title">LinkedIn</p>
-                                                <p class="subtitle">
-                                                    <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="HORIZONTAL" data-vanity="chakitanvyas" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/chakitanvyas?trk=profile-badge" style="display: block;" target="_blank">Chakitan Vyas</a></div>
-                                                </p>
-                                            </article>
-                                            <article class="tile is-child notification is-white is-shady">
-                                                <a href="https://t.me/chakitanvyas" style="display: block; text-decoration:none" target="_blank">
-                                                <p class="title">Telegram</p>
-                                                <p class="subtitle">a new era of messaging</p>
-                                                </a>
-                                            </article>
-                                        </div>
-                                        <div class="tile is-parent is-shady">
-                                            <article class="tile is-child notification is-white">
-                                                <a href="https://instagram.com/chakitanvyas" style="display: block; text-decoration:none" target="_blank">
-                                                <p class="title">Instagram</p>
-                                                <p class="subtitle">Follow me on Insta</p>
-                                                </a>
-                                                <figure class="image is-4by3">
-                                                    <img src="img/chakitanvyas_qr.png" width="640" height="480" alt="Chakitan Insta QR">
-                                                </figure>
-                                            </article>
-                                        </div>
-                                    </div>
-                                    <div class="tile is-parent is-shady">
-                                        <article class="tile is-child notification is-white">
-                                            <a href="https://github.com/chakitan" style="display: block; text-decoration:none" target="_blank">
-                                            <p class="title">GitHub</p>
-                                            <p class="subtitle">Collaborate</p>
-                                            </a>
-                                            <div class="content">
-                                                <p>Let's Collaborate on Github for Making a difference by solving real world problems with Tech Solution.</p>
-                                            </div>
-                                        </article>
-                                    </div>
-                                </div>
-                                <div class="tile is-parent is-shady">
-                                    <article class="tile is-child notification is-white">
-                                        <div class="content">
-                                            <p class="title">Twitter</p>
-                                            <p class="subtitle"><a href="https://twitter.com/chakitanvyas?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @chakitanvyas</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
-                                            <div class="content">
-                                                <a class="twitter-timeline" data-height="500" data-theme="dark" href="https://twitter.com/chakitanvyas?ref_src=twsrc%5Etfw">Tweets by chakitanvyas</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                                            </div>
-                                        </div>
-                                    </article>
-                                </div>
-                            </div>
-                            <div class="tile is-ancestor">
-                                <!-- <div class="tile is-parent is-8 is-shady">
-                                    <article class="tile is-child notification is-white">
-                                        <p class="title">Side column</p>
-                                        <p class="subtitle">With some content</p>
-                                        <div class="content">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
-                                        </div>
-                                    </article>
-                                </div> -->
-                                <div class="tile is-parent is-shady">
-                                    <article class="tile is-child notification is-white">
-                                        <p class="title">Write a Message <i class="fa fa-pen fa-sm"></i></p>
-                                        <p class="subtitle">To write me, Click on the button Below</p>
-                                        <div class="content">
-                                            <p>
-                                                <button data-tf-slider="FgfESvUS" data-tf-width="550" data-tf-iframe-props="title=Contact Form (copy)" data-tf-medium="snippet" style="all:unset;font-family:Helvetica,Arial,sans-serif;display:inline-block;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;background-color:#000000;color:#FFFFFF;font-size:20px;border-radius:25px;padding:0 33px;font-weight:bold;height:50px;cursor:pointer;line-height:50px;text-align:center;margin:0;text-decoration:none;">Click Here</button><script src="//embed.typeform.com/next/embed.js"></script>
-                                            </p>
-                                        </div>
-                                    </article>
+            </nav>
+            <!-- Header-->
+            <header class="py-5">
+                <div class="container px-5 pb-5">
+                    <div class="row gx-5 align-items-center">
+                        <div class="col-xxl-5">
+                            <!-- Header text content-->
+                            <div class="text-center text-xxl-start">
+                                <h1 class="display-3 fw-bolder mb-5"><span class="text-gradient d-inline">Chakitan </br> Vyas</span></h1>
+                                <div class="fs-4 fw-light text-muted">Certified DevOps Expert and Cloud Admin with a passion for development, secure deployments, and efficient project management.</div>
+                                <div class="badge bg-gradient-primary-to-secondary text-white mb-4"><div class="text-uppercase">DevOps &middot; Cloud &middot; Development</div></div>
+                                <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
+                                    <a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="resume.html">Resume</a>
+                                    <a class="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder" href="projects.html">Projects</a>
                                 </div>
                             </div>
                         </div>
-                    </section>
+                        <div class="col-xxl-7">
+                            <!-- Header profile picture-->
+                            <div class="d-flex justify-content-center mt-5 mt-xxl-0">
+                                <div class="profile bg-gradient-primary-to-secondary">
+                                    <img class="profile-img" src="assets/profile.png" alt="..." />
+                                    <div class="dots-1">
+                                        <!-- SVG Dots-->
+                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 191.6 1215.4" style="enable-background: new 0 0 191.6 1215.4" xml:space="preserve">
+                                            <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)">
+                                                <path d="M227.7,12788.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,12801.6,289.7,12808.6,227.7,12788.6z"></path>
+                                                <path d="M1507.7,12788.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,12801.6,1569.7,12808.6,1507.7,12788.6z"></path>
+                                                <path d="M227.7,11508.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,11521.6,289.7,11528.6,227.7,11508.6z"></path>
+                                                <path d="M1507.7,11508.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,11521.6,1569.7,11528.6,1507.7,11508.6z"></path>
+                                                <path d="M227.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,10241.6,289.7,10248.6,227.7,10228.6z"></path>
+                                                <path d="M1507.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,10241.6,1569.7,10248.6,1507.7,10228.6z"></path>
+                                                <path d="M227.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,8961.6,289.7,8968.6,227.7,8948.6z"></path>
+                                                <path d="M1507.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,8961.6,1569.7,8968.6,1507.7,8948.6z"></path>
+                                                <path d="M227.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,7681.6,289.7,7688.6,227.7,7668.6z"></path>
+                                                <path d="M1507.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,7681.6,1569.7,7688.6,1507.7,7668.6z"></path>
+                                                <path d="M227.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,6401.6,289.7,6408.6,227.7,6388.6z"></path>
+                                                <path d="M1507.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,6401.6,1569.7,6408.6,1507.7,6388.6z"></path>
+                                                <path d="M227.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,5121.6,289.7,5128.6,227.7,5108.6z"></path>
+                                                <path d="M1507.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,5121.6,1569.7,5128.6,1507.7,5108.6z"></path>
+                                                <path d="M227.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,3841.6,289.7,3848.6,227.7,3828.6z"></path>
+                                                <path d="M1507.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,3841.6,1569.7,3848.6,1507.7,3828.6z"></path>
+                                                <path d="M227.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,2561.6,289.7,2568.6,227.7,2548.6z"></path>
+                                                <path d="M1507.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,2561.6,1569.7,2568.6,1507.7,2548.6z"></path>
+                                                <path d="M227.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,1281.6,289.7,1288.6,227.7,1268.6z"></path>
+                                                <path d="M1507.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,1281.6,1569.7,1288.6,1507.7,1268.6z"></path>
+                                            </g>
+                                        </svg>
+                                        <!-- END of SVG dots-->
+                                    </div>
+                                    <div class="dots-2">
+                                        <!-- SVG Dots-->
+                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 191.6 1215.4" style="enable-background: new 0 0 191.6 1215.4" xml:space="preserve">
+                                            <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)">
+                                                <path d="M227.7,12788.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,12801.6,289.7,12808.6,227.7,12788.6z"></path>
+                                                <path d="M1507.7,12788.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,12801.6,1569.7,12808.6,1507.7,12788.6z"></path>
+                                                <path d="M227.7,11508.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,11521.6,289.7,11528.6,227.7,11508.6z"></path>
+                                                <path d="M1507.7,11508.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,11521.6,1569.7,11528.6,1507.7,11508.6z"></path>
+                                                <path d="M227.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,10241.6,289.7,10248.6,227.7,10228.6z"></path>
+                                                <path d="M1507.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,10241.6,1569.7,10248.6,1507.7,10228.6z"></path>
+                                                <path d="M227.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,8961.6,289.7,8968.6,227.7,8948.6z"></path>
+                                                <path d="M1507.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,8961.6,1569.7,8968.6,1507.7,8948.6z"></path>
+                                                <path d="M227.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,7681.6,289.7,7688.6,227.7,7668.6z"></path>
+                                                <path d="M1507.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,7681.6,1569.7,7688.6,1507.7,7668.6z"></path>
+                                                <path d="M227.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,6401.6,289.7,6408.6,227.7,6388.6z"></path>
+                                                <path d="M1507.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,6401.6,1569.7,6408.6,1507.7,6388.6z"></path>
+                                                <path d="M227.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,5121.6,289.7,5128.6,227.7,5108.6z"></path>
+                                                <path d="M1507.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,5121.6,1569.7,5128.6,1507.7,5108.6z"></path>
+                                                <path d="M227.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,3841.6,289.7,3848.6,227.7,3828.6z"></path>
+                                                <path d="M1507.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,3841.6,1569.7,3848.6,1507.7,3828.6z"></path>
+                                                <path d="M227.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,2561.6,289.7,2568.6,227.7,2548.6z"></path>
+                                                <path d="M1507.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,2561.6,1569.7,2568.6,1507.7,2548.6z"></path>
+                                                <path d="M227.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,1281.6,289.7,1288.6,227.7,1268.6z"></path>
+                                                <path d="M1507.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,1281.6,1569.7,1288.6,1507.7,1268.6z"></path>
+                                            </g>
+                                        </svg>
+                                        <!-- END of SVG dots-->
+                                    </div>
+                                    <div class="dots-3">
+                                        <!-- SVG Dots-->
+                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 191.6 1215.4" style="enable-background: new 0 0 191.6 1215.4" xml:space="preserve">
+                                            <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)">
+                                                <path d="M227.7,12788.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,12801.6,289.7,12808.6,227.7,12788.6z"></path>
+                                                <path d="M1507.7,12788.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,12801.6,1569.7,12808.6,1507.7,12788.6z"></path>
+                                                <path d="M227.7,11508.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,11521.6,289.7,11528.6,227.7,11508.6z"></path>
+                                                <path d="M1507.7,11508.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,11521.6,1569.7,11528.6,1507.7,11508.6z"></path>
+                                                <path d="M227.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,10241.6,289.7,10248.6,227.7,10228.6z"></path>
+                                                <path d="M1507.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,10241.6,1569.7,10248.6,1507.7,10228.6z"></path>
+                                                <path d="M227.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,8961.6,289.7,8968.6,227.7,8948.6z"></path>
+                                                <path d="M1507.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,8961.6,1569.7,8968.6,1507.7,8948.6z"></path>
+                                                <path d="M227.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,7681.6,289.7,7688.6,227.7,7668.6z"></path>
+                                                <path d="M1507.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,7681.6,1569.7,7688.6,1507.7,7668.6z"></path>
+                                                <path d="M227.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,6401.6,289.7,6408.6,227.7,6388.6z"></path>
+                                                <path d="M1507.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,6401.6,1569.7,6408.6,1507.7,6388.6z"></path>
+                                                <path d="M227.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,5121.6,289.7,5128.6,227.7,5108.6z"></path>
+                                                <path d="M1507.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,5121.6,1569.7,5128.6,1507.7,5108.6z"></path>
+                                                <path d="M227.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,3841.6,289.7,3848.6,227.7,3828.6z"></path>
+                                                <path d="M1507.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,3841.6,1569.7,3848.6,1507.7,3828.6z"></path>
+                                                <path d="M227.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,2561.6,289.7,2568.6,227.7,2548.6z"></path>
+                                                <path d="M1507.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,2561.6,1569.7,2568.6,1507.7,2548.6z"></path>
+                                                <path d="M227.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,1281.6,289.7,1288.6,227.7,1268.6z"></path>
+                                                <path d="M1507.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,1281.6,1569.7,1288.6,1507.7,1268.6z"></path>
+                                            </g>
+                                        </svg>
+                                        <!-- END of SVG dots-->
+                                    </div>
+                                    <div class="dots-4">
+                                        <!-- SVG Dots-->
+                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 191.6 1215.4" style="enable-background: new 0 0 191.6 1215.4" xml:space="preserve">
+                                            <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)">
+                                                <path d="M227.7,12788.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,12801.6,289.7,12808.6,227.7,12788.6z"></path>
+                                                <path d="M1507.7,12788.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,12801.6,1569.7,12808.6,1507.7,12788.6z"></path>
+                                                <path d="M227.7,11508.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,11521.6,289.7,11528.6,227.7,11508.6z"></path>
+                                                <path d="M1507.7,11508.6c-151-50-253-216-222-362c25-119,136-230,254-255c194-41,395,142,375,339c-11,105-90,213-190,262        C1663.7,11521.6,1569.7,11528.6,1507.7,11508.6z"></path>
+                                                <path d="M227.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,10241.6,289.7,10248.6,227.7,10228.6z"></path>
+                                                <path d="M1507.7,10228.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,10241.6,1569.7,10248.6,1507.7,10228.6z"></path>
+                                                <path d="M227.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,8961.6,289.7,8968.6,227.7,8948.6z"></path>
+                                                <path d="M1507.7,8948.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,8961.6,1569.7,8968.6,1507.7,8948.6z"></path>
+                                                <path d="M227.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,7681.6,289.7,7688.6,227.7,7668.6z"></path>
+                                                <path d="M1507.7,7668.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,7681.6,1569.7,7688.6,1507.7,7668.6z"></path>
+                                                <path d="M227.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,6401.6,289.7,6408.6,227.7,6388.6z"></path>
+                                                <path d="M1507.7,6388.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,6401.6,1569.7,6408.6,1507.7,6388.6z"></path>
+                                                <path d="M227.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,5121.6,289.7,5128.6,227.7,5108.6z"></path>
+                                                <path d="M1507.7,5108.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,5121.6,1569.7,5128.6,1507.7,5108.6z"></path>
+                                                <path d="M227.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,3841.6,289.7,3848.6,227.7,3828.6z"></path>
+                                                <path d="M1507.7,3828.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,3841.6,1569.7,3848.6,1507.7,3828.6z"></path>
+                                                <path d="M227.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,2561.6,289.7,2568.6,227.7,2548.6z"></path>
+                                                <path d="M1507.7,2548.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,2561.6,1569.7,2568.6,1507.7,2548.6z"></path>
+                                                <path d="M227.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C383.7,1281.6,289.7,1288.6,227.7,1268.6z"></path>
+                                                <path d="M1507.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262        C1663.7,1281.6,1569.7,1288.6,1507.7,1268.6z"></path>
+                                            </g>
+                                        </svg>
+                                        <!-- END of SVG dots-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="tab-pane is-active" id="pane-2">
-                    <div class="content">
-                        <p><span style="color: #363636;font-weight: 600;line-height: 1.125;font-size: 2em;">
-                            Chakitan Suryaprakash Vyas</span>, this side,
-                            a DevSecOps Engineer by profession, SRE at heart. I help people build and deploy their efforts secure & seemlessly, try to mitigate their issues and strive to manage project. I also love to design and develop WebApps. 
-                            Curious about tech buzz like web3, Blockchain, System Design and Architecture, and for(;;).
-                        </p>
-                            <div class="tags">
-                                <span class="tag is-primary is-light">Techie</span>
-                                <span class="tag is-link is-light">Ideapreneur</span>
-                                <span class="tag is-primary is-light">Dreamer</span>
-                                <span class="tag is-link is-light">Hustler</span>
-                            </div>
-                            <span><br></span>
-                            <span><br></span>
-                        <h4>Professional Summary</h4>
-                        <p>A good team player, a curious learner, and a self-motivated person with more than 5 Years of industry
-                            experience in DevOps (CI/CD), Cloud, Security, Scripting & Automation, Web-App development. 
-                            To know more about my roles and accomplishments visit Work section 
-
-                            <h5>Certifications</h5>
-                            <p>
-                                <div class="columns is-mobile">
-                                    <div class="column"><blockquote><div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="9d344860-622d-4f3f-adbb-65b0a24a9552" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script></blockquote></div>
-                                    <div class="column"><blockquote><div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="c3a25ab6-41cf-4aea-93b4-d608d7d58013" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script></blockquote></div>
-                                </div>
-                                <div class="columns is-mobile">                                    
-                                    <div class="column is-half"><blockquote><div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="57a8b8df-737b-4e1b-88e9-d9aaca102de9" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script></blockquote></div>
-                                </div>
-                                <blockquote>Red Hat Certified System Admin RHEL7 &nbsp;| <a href="http://" target="_blank">Check</a></blockquote>
-                            </p>
-                        </p>
-                        <span><br></span>
-                        <span><br></span>
-                        <h4>Education & Qualification</h4>
-                        <p>
-                            <div class="columns is-mobile">
-                                <div class="column is-half">
-                                    <blockquote>
-                                        <strong>Bachelor of Engineering (IT)</strong>
-                                        <p>
-                                            Savitribai Phule Pune University <br>
-                                            <i>08/2016 - 07/2019 &nbsp;|&nbsp; 8.3 SGPA</i>
-                                        </p>
-                                    </blockquote>
-                                </div>
-                                <div class="column is-half">
-                                    <blockquote>
-                                        <strong>Diploma in Information Technology</strong>
-                                        <p>
-                                            Maharashtra State Board of Technical Education <br>
-                                            <i>09/2013 - 07/2016 &nbsp;|&nbsp; 76.53%</i>
-                                        </p>
-                                    </blockquote>
+            </header>
+            <!-- About Section-->
+            <section class="bg-light py-5">
+                <div class="container px-5">
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-xxl-8">
+                            <div class="text-center my-5">
+                                <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">About Me</span></h2>
+                                <p class="lead fw-light mb-4">My name is Chakitan Vyas, DevSecOps Engineer by profession & SRE at heart</p>
+                                <p class="text-muted">I focus on delivering secure and seamless code deployments, resolving challenges efficiently, and managing projects effectively. I am a certified DevOps Expert and Cloud Administrator with love for web app design and development.</p> 
+                                <div class="d-flex justify-content-center fs-2 gap-4">
+                                    <a class="text-gradient" href="https://linkedin.com/in/chakitanvyas" target="_blank"><i class="bi bi-linkedin"></i></a>
+                                    <a class="text-gradient" href="https://medium.com/@chakitanvyas" target="_blank"><i class="bi bi-medium"></i></a>
+                                    <a class="text-gradient" href="https://instagram.com/chakitanvyas" target="_blank"><i class="bi bi-instagram"></i></a>
+                                    <a class="text-gradient" href="https://x.com/chakitanvyas" target="_blank"><i class="bi bi-twitter"></i></a>
+                                    <a class="text-gradient" href="https://github.com/chakitan" target="_blank"><i class="bi bi-github"></i></a>
                                 </div>
                             </div>
-                            <div class="columns is-mobile">
-                                <div class="column is-half">
-                                    <blockquote>
-                                        <strong>Class 10 (SSC)</strong>
-                                        <p>
-                                            Maharashtra State Board <br>
-                                            <i>07/2013 &nbsp;|&nbsp; 88.18 %</i>
-                                        </p>
-                                    </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- Footer-->
+        <footer class="bg-white py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto">
+                        <div class="small m-0">All Rights &amp; Worngs Reserved &copy; 2024-2025 | Version <span id="version">Loading...</span> </div>
+                    </div>
+                    <div class="col-auto">
+                        <a class="small" href="#">Top^</a>
+                        <span class="mx-1">&middot;</span>
+                        <a class="small" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Privacy^
+                        </a>
+                          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h1 class="modal-title fs-5" id="exampleModalLabel">Privacy Statement</h1>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
-                                <!-- <div class="column is-half"><blockquote></blockquote></div> -->
+                                <div class="modal-body text-justify">
+                                    We partner with Microsoft Clarity and Microsoft Advertising to capture how you use and interact with our website through behavioral metrics, heatmaps, and session replay to improve and market our products/services. Website usage data is captured using first and third-party cookies and other tracking technologies to determine the popularity of products/services and online activity. Additionally, we use this information for site optimization, fraud/security purposes, and advertising. For more information about how Microsoft collects and uses your data, visit the <a href="https://privacy.microsoft.com/privacystatement" target="_blank"> Microsoft Privacy Statement^</a>."
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                </div>
                               </div>
-                        </p>
-                        <span><br></span>
-                        <span><br></span>
-                        <h4>Personal Details</h4>
-                        <p>
-                            <strong>First Name:</strong> Chakitan 
-                                <span class="tooltip"><i class="fa fa-info fa-xs"></i>
-                                    <span class="tooltiptext">Pronounciation: [chekitaan] <i>चेकितान</i></span>
-                                </span> <br>
-                            <strong>Father's / Middle Name:</strong> Suryaprakash <br>
-                            <strong>Last Name:</strong> Vyas <br>
-                        </p>
-
-                        <h4>Siders</h4>
-                        <p>
-                            I've developed some hobbies, where <strong>Yoga</strong> is the first that's perceived during the pandamic days, and there's no way to turn back. I was always fond of Meditation and Yoga but never spared my time to do them. Now, I enjoy doing it daily, this activity keeps me real.
-                            I also love <strong>Reading</strong>, <i>not Books</i> but Blogs, anything that facinates me I read, I kind of web surfer (it's mostly Reddit :D)
-                            And now, I'm trying to make others read me through my articles. I do <strong>Blogging</strong> as well. I write weblogs around topics such as Technology, and Profile building.
-                            <br>
-                            <br>
-                            <i><Strong>Languages I speak:</Strong></i><br>
-                            <strong>English</strong><br>
-                            <strong>Hindi</strong><br>
-                            <strong>Marathi</strong><br>
-
-                        </p>
-                </div>
-                </div>
-                <div class="tab-pane" id="pane-3">
-                    <div class="columns">
-                        <div class="container">
-                            <div class="tags has-addons">
-                                <span class="tag is-primary title is-6">Featured</span>
                             </div>
-                            <div class="columns">
-                                <div class="column">
-                                    <article class="media">
-                                        <div class="media-left">
-                                            <i class="fab fa-medium fa-4x"></i>
-                                        </div>
-                                        <div class="media-content">
-                                            <div class="content">
-                                                <p>
-                                                    <strong>4 AI tools you must try if you’re an artist</strong>
-                                                    <br> 
-                                                    Whether or not AI going to replace artists in the future, it is for sure that AI is now ready to bring ease into artists’ life and perhaps...
-                                                    <a href="https://chakitanvyas.medium.com/4-ai-tools-you-must-try-if-youre-an-artist-57ef8bce6606" target="_blank">Read more</a>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </article>
-                                    <article class="media">
-                                        <div class="media-left">
-                                            <i class="fab fa-medium fa-4x"></i>
-                                        </div>
-                                        <div class="media-content">
-                                            <div class="content">
-                                                <p>
-                                                    <strong>5 Dos & Don’ts to crack any Interview as a Fresher</strong>
-                                                    <br> 
-                                                    Getting a job is a tough nut to crack especially if you're a final year graduate, who has subjects to clear, assignments to submit, a final project to deliver, and an internship to look at. But it's not that tough if you go well prepared.
-                                                    <a href="https://chakitanvyas.medium.com/5-dos-donts-to-crack-any-interview-as-a-fresher-3ac3cf5ef7b8" target="_blank">Read more</a>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </article>
-                                </div>
-                                <div class="column">
-                                    <article class="media">
-                                        <div class="media-left">
-                                            <i class="fab fa-medium fa-4x"></i>
-                                        </div>
-                                        <div class="media-content">
-                                            <div class="content">
-                                                <p>
-                                                    <strong>3 Tips to crack a Job Interview as Experienced</strong>
-                                                    <br> 
-                                                    Experienced ones, should prepare more adequately than non-experienced ones. Sharpen your 'best' knives. And try to ask & do clarify…
-                                                    <a href="https://chakitanvyas.medium.com/3-tips-to-crack-a-job-interview-as-experienced-97def3a0dc02" target="_blank">Read more</a>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </article>
-                                    <article class="media">
-                                        <div class="media-left">
-                                            <i class="fab fa-medium fa-4x"></i>
-                                        </div>
-                                        <div class="media-content">
-                                            <div class="content">
-                                                <p>
-                                                    <strong>3 tips for a good Resume</strong>
-                                                    <br> 
-                                                    Here I'm sharing three important points that will bring your resume a more good look and would make it sounder…
-                                                    <a href="https://chakitanvyas.medium.com/3-tips-for-a-good-resume-f5187f0967b2" target="_blank">Read more</a>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </article>
-                                </div>
-                            </div>
-                            <!-- <div class="tags has-addons">
-                                <span class="tag is-warning title is-6">Top</span>
-                            </div>
-                            <div class="columns">
-                                <div class="column">
-                                    <article class="media">
-                                        <div class="media-left">
-                                            <i class="fab fa-github-square fa-4x"></i>
-                                        </div>
-                                        <div class="media-content">
-                                            <div class="content">
-                                                <p>
-                                                    <strong>Dominic Ipsum</strong>
-                                                    <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </article>
-                                    <article class="media">
-                                        <div class="media-left">
-                                            <i class="fab fa-empire fa-4x"></i>
-                                        </div>
-                                        <div class="media-content">
-                                            <div class="content">
-                                                <p>
-                                                    <strong>Cassie Ipsum</strong>
-                                                    <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </article>
-                                </div>
-                                <div class="column">
-                                    <article class="media">
-                                        <div class="media-left">
-                                            <i class="fab fa-ravelry fa-4x"></i>
-                                        </div>
-                                        <div class="media-content">
-                                            <div class="content">
-                                                <p>
-                                                    <strong>Avery Ipsum</strong>
-                                                    <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </article>
-                                    <article class="media">
-                                        <div class="media-left">
-                                            <i class="fab fa-github-alt fa-4x"></i>
-                                        </div>
-                                        <div class="media-content">
-                                            <div class="content">
-                                                <p>
-                                                    <strong>io Ipsum</strong>
-                                                    <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis. ╳
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </article>
-                                </div>
-                            </div>-->
-                            <div class="tags has-addons">
-                                <span class="tag is-danger title is-6">All</span>
-                            </div>
-                            <div class="columns">
-                                <div class="column">
-                                    <article class="media">
-                                        <div class="media-left">
-                                            <i class="fab fa-github-square fa-4x"></i>
-                                        </div>
-                                        <div class="media-content">
-                                            <div class="content">
-                                                <p>
-                                                    <strong>Medium</strong>
-                                                    <br>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </article>
-                                    <article class="media">
-                                        <div class="media-left">
-                                            <i class="fab fa-empire fa-4x"></i>
-                                        </div>
-                                        <div class="media-content">
-                                            <div class="content">
-                                                <p>
-                                                    <strong>Dev.to</strong>
-                                                    <br> 
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </article>
-                                </div>
-                                <div class="column">
-                                    <article class="media">
-                                        <div class="media-left">
-                                            <i class="fab fa-ravelry fa-4x"></i>
-                                        </div>
-                                        <div class="media-content">
-                                            <div class="content">
-                                                <p>
-                                                    <strong>Blogger</strong>
-                                                    <br>                                                 </p>
-                                            </div>
-                                        </div>
-                                    </article>
-                                </div>
-                            </div>
-                        </div>
+                          </div>                        
+                        <span class="mx-1">&middot;</span>
+                        <a class="small" href="contact.html">Contact</a>
+                        <span class="mx-1">&middot;</span>
+                        <!-- <a href="https://visitcount.itsvg.in">
+                            <img src="https://visitcount.itsvg.in/api?id=chakitanvyas&label=Profile%20Views&color=2&pretty=true" />
+                        </a> -->
                     </div>
-                </div>
-                <div class="tab-pane" id="pane-4">
-                    <div class="columns is-centered">
-                        <div class="column is-three-quarters">
-                            <div class="title is-2">WorkEx</div>
-                            <div class="block">
-                                <fieldset>
-                                    <legend>
-                                        <h5 class="subtitle">Software Engineer (DevOps) @ Genus ABS</h5>  
-                                        &nbsp;
-                                    </legend>  
-                                    <i>Feb'2023 - to date</i><br>
-                                    <ul>
-                                        <li><b>Led Operations:</b> As part of the System Team, I committed to streamline and standardize operations across various projects, ensuring consistency and efficiency. </li>
-                                        <li><b>Standardized Practices:</b> Implemented standardized practices across tooling, source control, application design patterns, and documentation to improve overall workflow and maintainability. </li>
-                                        <li><b>Automation Initiatives:</b> Automated manual processes wherever possible, significantly reducing time and effort, and minimizing human error. </li>
-                                        <li><b>Resource Management:</b> Prepared and configured Azure cloud resources, ensuring optimal setup and readiness for all project needs. </li>
-                                        <li><b>Team Collaboration and Leadership:</b> Successfully collaborated with and led a vendor team, driving the DevOps initiatives and ensuring project goals were met. Played a pivotal role in steering the DevOps team towards achieving the project's objectives. </li>
-                                        <li><b>Development:</b> Secondarily involved in development of .NET APIs and SQL Server DB change scripts. </li>                                        
-                                    </ul>                                                                
-                                </fieldset>
-                                <span><br></span>
-                                <fieldset>
-                                    <legend>
-                                        <h5 class="subtitle">DevOps Engineer @ Civica</h5>  
-                                        &nbsp;
-                                    </legend>  
-                                    <i>May'2021 - Feb'2023</i><br>
-                                    <ul>
-                                        <li><b>DevOps Practice Team:</b> Being a part of Technology Strategy Group (TSG), a team which is responsible for maintaining DevOps Practice across all the projects in Civica, I was responsible for communicating & coordinating with the different project teams & stakeholders, ensuring compliances, and enhance performance & security in the projects </li>
-                                        <li><b>Infrastructure Automation:</b> Implemented infrastructure as code (IaC) using Bicep, Terraform, and Ansible, reducing provisioning time & maintain consistency. </li>
-                                        <li><b>CI/CD Pipeline:</b> Developed and maintained CI/CD pipelines in Azure DevOps, enabling frequent and reliable software releases. Also helped maintaining Azure Data Factory piplines </li>
-                                        <li><b>Monitoring & Incident Management:</b> Deployed monitoring solutions using AppInsights for Azure AppServices, and Azure Functions. </li>
-                                        <li><b>Cloud Management:</b> Managed and optimized cloud resources on Azure, resulting in cost reduction. </li>
-                                        <li><b>Security compliance:</b> Ensured compliance with security standards by implementing SonarQube, Veracode scans in CI/CD, VPN policies,security groups, and ssl/tls on Cloud Infra </li>
-                                    </ul>                                                                                             
-                                </fieldset>
-                                <span><br></span>
-                                <fieldset>
-                                    <legend>
-                                        <h5 class="subtitle">Junior Software Engineer @ TietoEvry</h5>  
-                                        &nbsp;
-                                    </legend>  
-                                        <i>Aug'2019 - May'2021</i><br>
-                                        <ul>
-                                            <li><b>Project UPM Biorefining:</b> Primarily, responsible for Build and Deployment of new releases to Application hosted VMs/ Azure Cloud, and Monitoring of applications. </li>
-                                            <li><b>Development:</b> Secondarily responsible for handling production defects that include developing features and resolving bugs for mainstream Forestry Application: C# (Windows Forms .NET) Supporting Java based 
-                                            <li><b>Wood Storage Service WebApp:</b> JSP, HTML, MySQL, Apache – Tomcat, and Nginx.
-                                            <li><b>Infra Activities: </b> Participation in Database Refresh, Password Rollover, Server Migration and Regular Health Checks. Handling Application facilitated Virtual Machines & Azure cloud services. </li>
-                                            <li><b>On Red Hat Enterprise Linux (RHEL7) servers: </b> Handling Day to day Administrator work, creating new and editing cronjobs & scripts. </li>
-                                            <li><b>On Windows VMs:</b> Creating and scheduling new Tasks, Monitoring, and taking care of Server Resources</li>
-                                        </ul>                                                                                                                          
-                                </fieldset>
-                                <span><br></span>
-                                <fieldset>
-                                    <legend><h5 class="subtitle">Start-up: MOD</h5>&nbsp;</legend>  
-                                    <i>May'2019 - May'2022</i><br>
-                                    <ul>
-                                        <li>
-                                            - Startup was and surely is a buzz for all, having said that, I was also the one eager to dive into the world of business.  <br>
-                                            - MOD Life (Trade name of MADE ON DEMAND ENTERPRISE) was a platform to proffer customised apparel, drinkware and accessories to the customers. <br>
-                                            - I primarily handled the Digital Part of the firm like Web development, Analytics, Google Business, Social Media handles etc.  https://modlife.in/ was the website back then<br>
-                                            - Not to mentioned, we achieved
-                                            &nbsp;&nbsp;&nbsp;&nbsp;o <i>Experience</i> to Run a business that includes handeling client requests, legalising the firm, ordering materials, visiting factories and vendors, converting customers and succesfully delivering orders <br>
-                                            &nbsp;&nbsp;&nbsp;&nbsp;o Talking about the numbers, firm's Google Business visit moved up by 390%, Site Visits were all time high of 3000 with Cloudflare in place, Orders increased by 11% and all organic<br>
-                                            - However, due to other commitments it was decided that to pause the business.
-                                        </li>
-                                    </ul>                                
-                                </fieldset>
-                                <span><br></span>
-                                <fieldset>
-                                    <legend><h5 class="subtitle"> Skill Set </h5>&nbsp;</legend>  
-                                        <p> 
-                                            Azure DevOps, PowerShell, Microsoft Azure, Git, Jenkins, JIRA, Bitbucket, GitHub Actions, Bicep, terraform, Docker, Kubernetes, Ansible, SonarQube, Veracode, YAML, npm, dotnet, maven, Build & Deployment, Microsoft SQL Server, Linux, HTML, CSS, JS, MySQL, Oracle, Splunk, PHP, Tomcat, Office 365, CI/CD, python
-                                        </p>                              
-                                </fieldset>
-                            </div>
-                              
-                            <div class="is-divider"></div>
-                            <div class="tag">
-                                <div class="columns">
-                                    <div class="column is-half">
-                                        <span class="tag is-success title is-6">
-                                            <a href="assets/ChakitanVyas_DevSecOps_Engineer.pdf" target="_blank">View Resume</a>
-                                            </span>
-                                    </div>
-                                    <div class="column is-half">
-                                        <span class="tag is-warning title is-6">
-                                            <a href="assets/ChakitanVyas_DevSecOps_Engineer.pdf" target="_blank" download>Download Resume</a>
-                                            </span>
-                                    </div>
-                                </div>    
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <footer class="footer stage">
-            <div class="container">
-                <div class="columns">
-                    <div class="column is-3 is-offset-2">
-                        <h2><strong>Quick Links</strong></h2>
-                        <ul>
-                            <li class="fa fa-language"><a href="https://chakitan.github.io/vyas/hi.html"> हिन्दी</a></li><br>
-                            <li class="fa fa-download"><a href="assets/ChakitanVyas_DevSecOps_Engineer.pdf" target="_blank" download>Resume Download</a></li><br>
-                            
-                        </ul>
-                    </div>
-                    <div class="column is-3" id="nav">
-                        <h2><strong>Site</strong></h2>
-                        <ul>
-                            <li class="fa fa-home"><a href="#">Home</a></li><br>
-                            <li class="fa fa-user-circle" data-target="pane-2" id="2"><a href="#">About Me</a></li><br>
-                            <li class="fa fa-exchange" data-target="pane-1" id="1"><a href="#">Contact Me</a></li><br>
-                            <li class="fa fa-magic" data-target="pane-4" id="4"><a href="#">See my Work</a></li><br>
-                            <li class="fa fa-edit" data-target="pane-3" id="3"><a href="#">Read my Blogs</a></li><br>
-                        </ul>
-                    </div>
-                </div>
-                <div class="content has-text-centered" style=" padding-top: 4rem">
-                    <p>
-                        <a class="icon" href="https://linkedin.com/in/chakitanvyas" target="_blank">
-                            <i class="fa fa-linkedin"></i>
-                        </a>
-                        <a class="icon" href="https://chakitan.github.io/vyas" target="_blank">
-                            <i class="fa fa-globe"></i>
-                        </a>
-                        <a class="icon" href="https://instagram.com/chakitanvyas" target="_blank">
-                            <i class="fa fa-instagram"></i>
-                        </a>
-                        <a class="icon" href="https://twitter.com/chakitanvyas" target="_blank">
-                            <i class="fa fa-twitter"></i>
-                        </a>
-                        <a class="icon" href="https://t.me/chakitanvyas" target="_blank">
-                            <i class="fa fa-telegram"></i>
-                        </a>
-                        <a class="icon" href="https://chakitanvyas.medium.com/" target="_blank">
-                            <i class="fa fa-medium"></i>
-                        </a>
-                        <a class="icon" href="https://github.com/chakitan" target="_blank">
-                            <i class="fa fa-github"></i>
-                        </a>
-                    </p>
-                    <div class="control level-item">
-                            <div class="tags has-addons">
-                                <span class="tag is-orange is-medium">Rights & Worngs Reserved</span>
-                                <span class="tag is-white is-medium">&copy;2021 - 2024</span>
-                                <span class="tag is-success is-medium">Chakitan Suryaprakash Vyas</span>
-                            </div>
-                    </div>
-                    <p style="padding: 1.5rem; color: #555555;opacity: 30%;">Version 0.01.011224</p>
-                    <a href="https://visitcount.itsvg.in">
-                        <img src="https://visitcount.itsvg.in/api?id=chakitanvyas&label=Profile%20Views&pretty=true" />
-                    </a>
                 </div>
             </div>
         </footer>
-        <script src="js/bulma.js"></script>
-        <script src="js/tabs.js"></script>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/TypewriterJS/2.13.1/core.min.js"></script>
         <script>
             new Typewriter('#typewriter', {
-            strings: ['Hello', 'bonjour', 'नमस्ते', 'नमस्कार','నమస్కారం','நமஸ்காரம்'],
+            strings: ['नमस्ते', 'नमस्कार','నమస్కారం','நமஸ்காரம்','Hello', 'bonjour'],
             autoStart: true,
             loop: true,
             });
         </script>
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>
-            AOS.init({
-            once: true
-            });
-        </script>
-        <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
     </body>
 </html>
