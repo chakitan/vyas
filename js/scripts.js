@@ -1,7 +1,10 @@
-/*!
-* Start Bootstrap - Personal v1.0.1 (https://startbootstrap.com/template-overviews/personal)
-* Copyright 2013-2023 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-personal/blob/master/LICENSE)
-*/
-// This file is intentionally blank
-// Use this file to add JavaScript to your project
+// Fetch the version file and display it
+fetch("version")
+.then(response => response.text())
+.then(data => {
+    document.getElementById("version").textContent = data.trim();
+})
+.catch(err => {
+    console.error("Error fetching version:", err);
+    document.getElementById("version").textContent = "Error loading version";
+});
