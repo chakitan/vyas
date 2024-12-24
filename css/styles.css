@@ -11742,3 +11742,96 @@ html {
 .link-nounderline {
   text-decoration: none;
 }
+
+.wrapper {
+	display: flex;
+}
+
+.flag {
+	width: 2rem;
+	height: 1rem;
+	box-shadow: 0px 0px 90px 1px #989;
+	background-color: transparent;
+	position: relative;
+}
+
+.top {
+	height: .4rem;
+	background-color: #ff9933
+}
+
+.middle {
+	height: .4rem;
+	background-color: white
+}
+
+.bottom {
+	height: .4rem;
+	background-color: green
+}
+
+.wheel {
+	height: .4rem;
+	width: .4rem;
+	border: .1rem solid darkblue;
+	border-radius: .5rem;
+	position: relative;
+	margin: 0 auto
+}
+
+.wheel .line {
+	height: 100%;
+	width: .1rem;
+	display: inline-block;
+	position: absolute;
+	left: 50%;
+	background: darkblue;
+}
+
+.line:nth-child(1) {
+	transform: rotate(15deg)
+}
+
+.line:nth-child(2) {
+	transform: rotate(30deg)
+}
+
+.line:nth-child(3) {
+	transform: rotate(45deg)
+}
+
+.line:nth-child(4) {
+	transform: rotate(60deg)
+}
+
+.line:nth-child(5) {
+	transform: rotate(75deg)
+}
+
+.line:nth-child(6) {
+	transform: rotate(90deg)
+}
+
+.line:nth-child(7) {
+	transform: rotate(105deg)
+}
+
+.line:nth-child(8) {
+	transform: rotate(120deg)
+}
+
+.line:nth-child(9) {
+	transform: rotate(135deg)
+}
+
+.line:nth-child(10) {
+	transform: rotate(150deg)
+}
+
+.line:nth-child(11) {
+	transform: rotate(165deg)
+}
+
+.line:nth-child(12) {
+	transform: rotate(180deg)
+}
